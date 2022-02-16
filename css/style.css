@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
  body,html{margin: 0;padding: 0;}
 
 .navbar {
@@ -28,7 +30,7 @@
 }
 .navbar .navbar-nav .nav-link:not(.disabled):hover,
 .navbar .navbar-nav .nav-link:not(.disabled):focus {
-  color: #ecdbff;
+  color: #313131;
 }
 .navbar .navbar-nav .nav-item.active .nav-link,
 .navbar .navbar-nav .nav-item.active .nav-link:hover,
@@ -36,7 +38,7 @@
 .navbar .navbar-nav .nav-item.show .nav-link,
 .navbar .navbar-nav .nav-item.show .nav-link:hover,
 .navbar .navbar-nav .nav-item.show .nav-link:focus {
-  color: #ecdbff;
+  color: #313131;
   background-color: #a27900;
 }
 .navbar .navbar-toggle {
@@ -47,43 +49,43 @@
   background-color: #a27900;
 }
 .navbar .navbar-toggle .navbar-toggler-icon {
-  color: #f3f8f9;
+  color: #313131;
 }
 .navbar .navbar-collapse,
 .navbar .navbar-form {
-  border-color: #f3f8f9;
+  border-color: #313131;
 }
 .navbar .navbar-link {
-  color: #f3f8f9;
+  color: #313131;
 }
 .navbar .navbar-link:hover {
-  color: #ecdbff;
+  color: #313131;
 }
 
 @media (max-width: 575px) {
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #f3f8f9;
+    color: #313131;
   }
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #ecdbff;
+    color: #313131;
   }
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #ecdbff;
+    color: #313131;
     background-color: #a27900;
   }
 }
 
 @media (max-width: 767px) {
   .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #f3f8f9;
+    color: #313131;
   }
   .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
   .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #ecdbff;
+    color: #313131;
   }
   .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #ecdbff;
+    color: #313131;
     background-color: #a27900;
   }
 }
@@ -94,34 +96,34 @@
   }
   .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
   .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #ecdbff;
+    color: #313131;
   }
   .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #ecdbff;
+    color: #313131;
     background-color: #a27900;
   }
 }
 
 @media (max-width: 1199px) {
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #f3f8f9;
+    color: #313131;
   }
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #ecdbff;
+    color: #313131;
   }
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #ecdbff;
+    color: #313131;
     background-color: #a27900;
   }
 }
 
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
-  color: #f3f8f9;
+  color: #313131;
 }
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-  color: #ecdbff;
+  color: #313131;
 }
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
   color: #ecdbff;
@@ -205,9 +207,6 @@ body,
     font-size: 20px; font-weight: bold;letter-spacing: 3px;color: #a27900;
 }
 
-.footer-list {
-    list-style-type: none; padding-left: 0;
-}
 .footer-list > li a{color: aliceblue;text-decoration: none;}
 
 .bg-gray {
@@ -222,4 +221,59 @@ body,
 .btn-gold {
     background-color: #a27900;
     color: white;
+}
+
+.btn-danger.custom-btn{
+    background-color: #a27900;
+    border-color: #313131;
+    color: white;
+}
+.footer-text {
+    color:aliceblue;
+}
+.footer-body {
+    background-color: #eeeeee;
+    font-family: 'Open Sans', serif;
+    font-size: 14px
+}
+
+.container-fluid {
+    margin-top: 50px
+}
+
+.footer-copyright {
+    margin-top: 13px
+}
+
+.footer-a {
+    text-decoration: none !important;
+    color: #777a7c
+}
+
+.description {
+    font-size: 12px
+}
+
+.fa-facebook-f {
+    color: #3b5999
+}
+
+.fa-instagram {
+    color: #e4405f
+}
+
+.fa-youtube {
+    color: #cd201f
+}
+
+.fa-twitter {
+    color: #55acee
+}
+
+.logo-footer {
+    height: 50px;
+}
+
+.footer-copyright p {
+    margin-top: 10px
 }

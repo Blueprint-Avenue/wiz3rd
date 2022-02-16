@@ -1,5 +1,5 @@
 $(function() {
-    $(".carousel").carousel( { interval: 6500 } );
+    $(".carousel").carousel( { interval: 4000 } );
     $("#nbaCarouselIndicators").click(function(){
         if ($("#nbaCarouselIndicators").children("i").hasClass("fa-pause")) {
             $(".carousel").carousel("pause");
